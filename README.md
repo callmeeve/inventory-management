@@ -1,12 +1,8 @@
-Tentu! Kamu bisa menambahkan gambar ke dalam `README.md` dengan mengacu pada path relatif di folder `public`. Berikut adalah template `README.md` yang telah diperbarui dengan penambahan gambar dari folder `public/screenshot`.
-
----
-
 # Inventory Management System
 
 ## Deskripsi
 
-Ini adalah aplikasi manajemen inventaris yang dibangun menggunakan Next.js dengan App Router, NextAuth untuk autentikasi, Prisma sebagai ORM, dan MongoDB sebagai database. Aplikasi ini dirancang untuk membantu dalam mengelola stok barang, melacak item, dan mengelola pengguna.
+Ini adalah aplikasi manajemen inventaris yang dibangun menggunakan Next.js dengan App Router (Typescript), NextAuth untuk autentikasi, Prisma sebagai ORM, dan MongoDB sebagai database. Aplikasi ini dirancang untuk membantu dalam mengelola stok barang, melacak item, dan mengelola pengguna.
 
 ## Fitur Utama
 
