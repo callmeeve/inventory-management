@@ -72,7 +72,7 @@ Berikut adalah beberapa tangkapan layar dari aplikasi:
 ![Homepage](public/screenshot/dashboard.png)
 
 ### Halaman Manajemen Item
-![Item Management](public/screenshot/item-management.png)
+![Item Management](public/screenshot/product.png)
 
 ### Halaman Login
 ![Login Page](public/screenshot/login.png)
