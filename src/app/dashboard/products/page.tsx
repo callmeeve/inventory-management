@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import { TrashIcon } from 'lucide-react';
 import { Rings } from 'react-loader-spinner'
 import ProductFormDialog from '@/components/ProductFormDialog';
+import { formatCurrency } from '@/lib/utils';
 
 export default function ProductsPage() {
     const { data: session } = useSession();
@@ -97,7 +98,7 @@ export default function ProductsPage() {
                                         {products.map((item) => (
                                             <TableRow key={item.id}>
                                                 <TableCell className="font-medium">{item.name}</TableCell>
-                                                <TableCell>{item.price}</TableCell>
+                                                <TableCell>{formatCurrency(item.price)}</TableCell>
                                                 <TableCell>{item.quantity}</TableCell>
                                                 <TableCell>{item.categories?.name}</TableCell>
                                                 <TableCell>
